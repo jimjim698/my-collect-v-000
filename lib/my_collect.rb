@@ -8,6 +8,4 @@ collection = []
   collection
 end
 
-my_collect(["jim","tim","jake"])
-do |name| name.reverse
-end
+
