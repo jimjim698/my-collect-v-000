@@ -9,5 +9,4 @@ i = 0
 end
 
 my_collect(["jim","tim","jake"])
-{ |name| name.upcase}
-
+{ |name| name.reverse}
