@@ -8,6 +8,6 @@ i = 0
   collection
 end
 
-my_collections(["jim","tim","jake"])
+my_collect(["jim","tim","jake"])
 do |name| name.upcase
 end
