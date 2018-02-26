@@ -7,5 +7,3 @@ collection = []
   end
   collection
 end
-
-
