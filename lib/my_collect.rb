@@ -1,6 +1,6 @@
 def my_collect(array)
-collection = []
 i = 0
+collection = []
   while i< array.length
     collection<< yield(array[i])
     i = i+1
@@ -9,4 +9,5 @@ i = 0
 end
 
 my_collect(["jim","tim","jake"])
-{ |name| name.reverse}
+do |name| name.reverse
+end
