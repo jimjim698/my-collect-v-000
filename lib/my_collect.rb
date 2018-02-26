@@ -7,3 +7,7 @@ i = 0
   end
   collection
 end
+
+my_collections(["jim","tim","jake"])
+do |name| name.upcase
+end
