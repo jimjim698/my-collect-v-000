@@ -9,6 +9,5 @@ i = 0
 end
 
 my_collect(["jim","tim","jake"])
-do |name| name.upcase
-end
-end
+{ |name| name.upcase}
+
